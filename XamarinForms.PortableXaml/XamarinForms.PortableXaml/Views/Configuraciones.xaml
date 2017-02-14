@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="XamarinForms.PortableXaml.Views.Configuraciones">
+  <ContentPage.Content>
+    <Grid>
+      <Grid.RowDefinitions>
+        <RowDefinition Height="35" />
+        <RowDefinition Height="35" />
+        <RowDefinition Height="35" />
+        <RowDefinition Height="35" />
+        <RowDefinition Height="35" />
+        <RowDefinition Height="*" />
+      </Grid.RowDefinitions>
+      <Grid.ColumnDefinitions>
+        <ColumnDefinition Width="70" />
+        <ColumnDefinition Width="*" />
+      </Grid.ColumnDefinitions>
+      <Label Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="2" />
+      <Label FontSize="15" Grid.Row="1" Grid.Column="0" Text="URL Servicio"/>
+      <Entry FontSize="15" Grid.Row="1" Grid.Column="1" x:Name="ServicioUrlTxt"  />
+      <Label FontSize="15" Grid.Row="2" Grid.Column="0" Text="Timer GPS"/>
+      <Entry FontSize="15" Grid.Row="2" Grid.Column="1" x:Name="GpsTimerTxt" Keyboard="Numeric" />
+      <Button Text="Guardar" Grid.Row="3" Grid.Column="0" Grid.ColumnSpan="2" x:Name="BtnGuardar" />
+      <Button Text="Posicion" Grid.Row="4" Grid.Column="0" Grid.ColumnSpan="2" x:Name="BtnPosition" />
+      <Label FontSize="15" Grid.Row="5" Grid.Column="0" x:Name="LblPosition" LineBreakMode="WordWrap"/>
+    </Grid>
+  </ContentPage.Content>
+</ContentPage>

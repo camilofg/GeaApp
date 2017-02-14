@@ -1,0 +1,13 @@
+C:\Users\Pc\Documents\app-movil-gea-code\Components\bin\Release\Components.dll
+C:\Users\Pc\Documents\app-movil-gea-code\Components\bin\Release\Components.pdb
+C:\Users\Pc\Documents\app-movil-gea-code\Components\bin\Release\Xamarin.Forms.Core.dll
+C:\Users\Pc\Documents\app-movil-gea-code\Components\bin\Release\Xamarin.Forms.Platform.dll
+C:\Users\Pc\Documents\app-movil-gea-code\Components\bin\Release\Xamarin.Forms.Xaml.dll
+C:\Users\Pc\Documents\app-movil-gea-code\Components\bin\Release\Xamarin.Forms.Core.pdb
+C:\Users\Pc\Documents\app-movil-gea-code\Components\bin\Release\Xamarin.Forms.Core.xml
+C:\Users\Pc\Documents\app-movil-gea-code\Components\bin\Release\Xamarin.Forms.Platform.pdb
+C:\Users\Pc\Documents\app-movil-gea-code\Components\bin\Release\Xamarin.Forms.Xaml.pdb
+C:\Users\Pc\Documents\app-movil-gea-code\Components\bin\Release\Xamarin.Forms.Xaml.xml
+C:\Users\Pc\Documents\app-movil-gea-code\Components\obj\Release\Components.csprojResolveAssemblyReference.cache
+C:\Users\Pc\Documents\app-movil-gea-code\Components\obj\Release\Components.dll
+C:\Users\Pc\Documents\app-movil-gea-code\Components\obj\Release\Components.pdb

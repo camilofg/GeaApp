@@ -1,0 +1,267 @@
+[
+  {
+    "ID": 4,
+    "VALOR": "ACORREDOR",
+    "VALOR1": "81dc9bdb52d04dc20036dbd8313ed055"
+  },
+  {
+    "ID": 5,
+    "VALOR": "ACALDERON",
+    "VALOR1": "81dc9bdb52d04dc20036dbd8313ed055"
+  },
+  {
+    "ID": 6,
+    "VALOR": "ABETANCOURT",
+    "VALOR1": "81dc9bdb52d04dc20036dbd8313ed055"
+  },
+  {
+    "ID": 7,
+    "VALOR": "AMORA",
+    "VALOR1": "81dc9bdb52d04dc20036dbd8313ed055"
+  },
+  {
+    "ID": 9,
+    "VALOR": "AMONTANAF",
+    "VALOR1": "81dc9bdb52d04dc20036dbd8313ed055"
+  },
+  {
+    "ID": 10,
+    "VALOR": "AFONSECA",
+    "VALOR1": "81dc9bdb52d04dc20036dbd8313ed055"
+  },
+  {
+    "ID": 11,
+    "VALOR": "CDELGADILLO",
+    "VALOR1": "81dc9bdb52d04dc20036dbd8313ed055"
+  },
+  {
+    "ID": 12,
+    "VALOR": "CCOLORADO",
+    "VALOR1": "81dc9bdb52d04dc20036dbd8313ed055"
+  },
+  {
+    "ID": 13,
+    "VALOR": "CNARANJO",
+    "VALOR1": "81dc9bdb52d04dc20036dbd8313ed055"
+  },
+  {
+    "ID": 14,
+    "VALOR": "CCORTES",
+    "VALOR1": "81dc9bdb52d04dc20036dbd8313ed055"
+  },
+  {
+    "ID": 15,
+    "VALOR": "CSANTOS",
+    "VALOR1": "81dc9bdb52d04dc20036dbd8313ed055"
+  },
+  {
+    "ID": 16,
+    "VALOR": "CTORRES",
+    "VALOR1": "81dc9bdb52d04dc20036dbd8313ed055"
+  },
+  {
+    "ID": 17,
+    "VALOR": "CPEREZ",
+    "VALOR1": "81dc9bdb52d04dc20036dbd8313ed055"
+  },
+  {
+    "ID": 19,
+    "VALOR": "DLONDONO",
+    "VALOR1": "81dc9bdb52d04dc20036dbd8313ed055"
+  },
+  {
+    "ID": 20,
+    "VALOR": "ALONDONO",
+    "VALOR1": "81dc9bdb52d04dc20036dbd8313ed055"
+  },
+  {
+    "ID": 21,
+    "VALOR": "DAPACHECO",
+    "VALOR1": "81dc9bdb52d04dc20036dbd8313ed055"
+  },
+  {
+    "ID": 22,
+    "VALOR": "ERUBIANO",
+    "VALOR1": "81dc9bdb52d04dc20036dbd8313ed055"
+  },
+  {
+    "ID": 23,
+    "VALOR": "EMENDOZA",
+    "VALOR1": "81dc9bdb52d04dc20036dbd8313ed055"
+  },
+  {
+    "ID": 24,
+    "VALOR": "FGUZMAN",
+    "VALOR1": "81dc9bdb52d04dc20036dbd8313ed055"
+  },
+  {
+    "ID": 25,
+    "VALOR": "FDELGADO",
+    "VALOR1": "81dc9bdb52d04dc20036dbd8313ed055"
+  },
+  {
+    "ID": 26,
+    "VALOR": "GPEREZ",
+    "VALOR1": "81dc9bdb52d04dc20036dbd8313ed055"
+  },
+  {
+    "ID": 27,
+    "VALOR": "GCASTRO",
+    "VALOR1": "81dc9bdb52d04dc20036dbd8313ed055"
+  },
+  {
+    "ID": 28,
+    "VALOR": "HBERNAL",
+    "VALOR1": "81dc9bdb52d04dc20036dbd8313ed055"
+  },
+  {
+    "ID": 29,
+    "VALOR": "HFORERO",
+    "VALOR1": "81dc9bdb52d04dc20036dbd8313ed055"
+  },
+  {
+    "ID": 30,
+    "VALOR": "JCORREDOR",
+    "VALOR1": "81dc9bdb52d04dc20036dbd8313ed055"
+  },
+  {
+    "ID": 31,
+    "VALOR": "JHERNANDEZ",
+    "VALOR1": "81dc9bdb52d04dc20036dbd8313ed055"
+  },
+  {
+    "ID": 32,
+    "VALOR": "JMUNOZ",
+    "VALOR1": "81dc9bdb52d04dc20036dbd8313ed055"
+  },
+  {
+    "ID": 33,
+    "VALOR": "JGARCIA",
+    "VALOR1": "81dc9bdb52d04dc20036dbd8313ed055"
+  },
+  {
+    "ID": 34,
+    "VALOR": "JNUNEZ",
+    "VALOR1": "81dc9bdb52d04dc20036dbd8313ed055"
+  },
+  {
+    "ID": 35,
+    "VALOR": "JCONTRERAS",
+    "VALOR1": "81dc9bdb52d04dc20036dbd8313ed055"
+  },
+  {
+    "ID": 37,
+    "VALOR": "JRIATIGA",
+    "VALOR1": "81dc9bdb52d04dc20036dbd8313ed055"
+  },
+  {
+    "ID": 39,
+    "VALOR": "KGUZMAN",
+    "VALOR1": "81dc9bdb52d04dc20036dbd8313ed055"
+  },
+  {
+    "ID": 38,
+    "VALOR": "JSAENZ",
+    "VALOR1": "81dc9bdb52d04dc20036dbd8313ed055"
+  },
+  {
+    "ID": 40,
+    "VALOR": "LAMAYA",
+    "VALOR1": "81dc9bdb52d04dc20036dbd8313ed055"
+  },
+  {
+    "ID": 41,
+    "VALOR": "LSATIZABAL",
+    "VALOR1": "81dc9bdb52d04dc20036dbd8313ed055"
+  },
+  {
+    "ID": 42,
+    "VALOR": "LCHAUX",
+    "VALOR1": "81dc9bdb52d04dc20036dbd8313ed055"
+  },
+  {
+    "ID": 43,
+    "VALOR": "LSEGRERA",
+    "VALOR1": "81dc9bdb52d04dc20036dbd8313ed055"
+  },
+  {
+    "ID": 44,
+    "VALOR": "MGARCIA",
+    "VALOR1": "81dc9bdb52d04dc20036dbd8313ed055"
+  },
+  {
+    "ID": 45,
+    "VALOR": "MOLIVARES",
+    "VALOR1": "81dc9bdb52d04dc20036dbd8313ed055"
+  },
+  {
+    "ID": 47,
+    "VALOR": "OCONTRERAS",
+    "VALOR1": "81dc9bdb52d04dc20036dbd8313ed055"
+  },
+  {
+    "ID": 48,
+    "VALOR": "RSANCHEZ",
+    "VALOR1": "81dc9bdb52d04dc20036dbd8313ed055"
+  },
+  {
+    "ID": 49,
+    "VALOR": "RZAPATA",
+    "VALOR1": "81dc9bdb52d04dc20036dbd8313ed055"
+  },
+  {
+    "ID": 50,
+    "VALOR": "RREINSTANG",
+    "VALOR1": "81dc9bdb52d04dc20036dbd8313ed055"
+  },
+  {
+    "ID": 51,
+    "VALOR": "RPEREZ",
+    "VALOR1": "81dc9bdb52d04dc20036dbd8313ed055"
+  },
+  {
+    "ID": 52,
+    "VALOR": "SGONZALEZ",
+    "VALOR1": "81dc9bdb52d04dc20036dbd8313ed055"
+  },
+  {
+    "ID": 53,
+    "VALOR": "SPUENTES",
+    "VALOR1": "81dc9bdb52d04dc20036dbd8313ed055"
+  },
+  {
+    "ID": 54,
+    "VALOR": "SDGONZALEZ",
+    "VALOR1": "81dc9bdb52d04dc20036dbd8313ed055"
+  },
+  {
+    "ID": 55,
+    "VALOR": "SROJAS",
+    "VALOR1": "81dc9bdb52d04dc20036dbd8313ed055"
+  },
+  {
+    "ID": 56,
+    "VALOR": "VSANCHEZ",
+    "VALOR1": "81dc9bdb52d04dc20036dbd8313ed055"
+  },
+  {
+    "ID": 57,
+    "VALOR": "VSARMIENTO",
+    "VALOR1": "81dc9bdb52d04dc20036dbd8313ed055"
+  },
+  {
+    "ID": 58,
+    "VALOR": "WPEREZ",
+    "VALOR1": "81dc9bdb52d04dc20036dbd8313ed055"
+  },
+  {
+    "ID": 59,
+    "VALOR": "WRUIZ",
+    "VALOR1": "81dc9bdb52d04dc20036dbd8313ed055"
+  },
+  {
+    "ID": 36,
+    "VALOR": "JIZQUIERDO",
+    "VALOR1": "81dc9bdb52d04dc20036dbd8313ed055"
+  }
+]

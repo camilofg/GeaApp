@@ -1,0 +1,9 @@
+J:\Codigo Fuente\Gea\Gea-app\ModelLayer\bin\Release\ModelLayer.dll
+J:\Codigo Fuente\Gea\Gea-app\ModelLayer\bin\Release\ModelLayer.pdb
+J:\Codigo Fuente\Gea\Gea-app\ModelLayer\obj\Release\ModelLayer.dll
+J:\Codigo Fuente\Gea\Gea-app\ModelLayer\obj\Release\ModelLayer.pdb
+J:\Codigo Fuente\Gea\Gea-app\ModelLayer\obj\Release\ModelLayer.csprojResolveAssemblyReference.cache
+J:\Codigo Fuente\Gea\Gea-app\ModelLayer\obj\Release\ModelLayer.dll.mdb
+J:\Codigo Fuente\Gea\Gea-app\ModelLayer\bin\Release\ModelLayer.dll.mdb
+J:\Codigo Fuente\Gea\Gea-app\ModelLayer\obj\Release\ModelLayer.dll.mdb
+J:\Codigo Fuente\Gea\Gea-app\ModelLayer\bin\Release\ModelLayer.dll.mdb

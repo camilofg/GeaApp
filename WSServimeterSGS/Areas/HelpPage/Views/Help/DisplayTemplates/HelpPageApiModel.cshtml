@@ -1,0 +1,67 @@
+@using System.Web.Http
+@using System.Web.Http.Description
+@using WSServimeterSGS.Areas.HelpPage.Models
+@using WSServimeterSGS.Areas.HelpPage.ModelDescriptions
+@model HelpPageApiModel
+
+@{
+    ApiDescription description = Model.ApiDescription;
+}
+<h1>@description.HttpMethod.Method @description.RelativePath</h1>
+<div>
+    <p>@description.Documentation</p>
+
+    <h2>Información de la petición</h2>
+
+    <h3>Parametros URI</h3>
+    @Html.DisplayFor(m => m.UriParameters, "Parameters")
+
+    <h3>Cuerpo de parametros</h3>
+
+    <p>@Model.RequestDocumentation</p>
+
+    @if (Model.RequestModelDescription != null)
+    {
+        @Html.DisplayFor(m => m.RequestModelDescription.ModelType, "ModelDescriptionLink", new { modelDescription = Model.RequestModelDescription })
+        if (Model.RequestBodyParameters != null)
+        {
+            @Html.DisplayFor(m => m.RequestBodyParameters, "Parameters")
+        }
+    }
+    else
+    {
+        <p>None.</p>
+    }
+
+    @if (Model.SampleRequests.Count > 0)
+    {
+        <h3>Request Formats</h3>
+        @Html.DisplayFor(m => m.SampleRequests, "Ejemplos")
+    }
+
+    <h2>Información del Response</h2>
+
+    <h3>DEscripción del recurso</h3>
+
+    <p>@description.ResponseDescription.Documentation</p>
+
+    @if (Model.ResourceDescription != null)
+    {
+        @Html.DisplayFor(m => m.ResourceDescription.ModelType, "ModelDescriptionLink", new { modelDescription = Model.ResourceDescription })
+        if (Model.ResourceProperties != null)
+        {
+            @Html.DisplayFor(m => m.ResourceProperties, "Parameters")
+        }
+    }
+    else
+    {
+        <p>Ninguno.</p>
+    }
+
+    @if (Model.SampleResponses.Count > 0)
+    {
+        <h3>Formato de respuesta</h3>
+        @Html.DisplayFor(m => m.SampleResponses, "Samples")
+    }
+
+</div>

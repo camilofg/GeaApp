@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="XamarinForms.PortableXaml.Login">
+  <ContentPage.Content>
+    <StackLayout Padding="10,30,10,10" Spacing="10">
+      <!--<StackLayout.BackgroundColor>
+          <OnPlatform x:TypeArguments="Color" Android="#FFFFFF" WinPhone="#51C0D4" iOS="#51C0D4"></OnPlatform>
+      </StackLayout.BackgroundColor>-->
+      <Image x:Name="IconLogo"
+             HorizontalOptions="Center"
+             VerticalOptions="Center"/>
+      <Label Text="GEA"
+             Font="30"
+             HorizontalOptions="Center"
+             VerticalOptions="Center"/>
+      <Label Text="Ingreso al Sistema"
+             HorizontalOptions="Center"
+             VerticalOptions="Center"/>
+      <ActivityIndicator x:Name="waitActivityIndicator"
+             HorizontalOptions="Center"
+             VerticalOptions="Center"/>
+      <Label Text="Usuario:"
+            HorizontalOptions="Start"
+            VerticalOptions="Center"/>
+      <Entry x:Name="userEntry"
+             Placeholder="Ingrese Usuario"
+             HorizontalOptions="FillAndExpand"
+             VerticalOptions="Center"/>
+      <Label Text="Clave:"
+            HorizontalOptions="Start"
+            VerticalOptions="Center"/>
+      <Entry x:Name="passwordEntry"
+             Placeholder="Ingrese Clave"
+             IsPassword="True"
+             HorizontalOptions="FillAndExpand"
+             VerticalOptions="Center"/>
+      <Button x:Name="enterButton"
+              BackgroundColor="Navy"
+              TextColor="White"
+              Text="Ingresar"
+              HorizontalOptions="FillAndExpand"
+              VerticalOptions="Center"/>
+    </StackLayout>
+  </ContentPage.Content>
+</ContentPage>

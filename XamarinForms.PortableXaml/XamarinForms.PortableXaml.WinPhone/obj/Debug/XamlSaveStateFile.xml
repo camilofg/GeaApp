@@ -1,0 +1,13 @@
+<XamlCompilerSaveState>
+  <ReferenceAssemblyList>
+    <LocalAssembly PathName="j:\codigo fuente\gea\gea-app\xamarinforms.portablexaml\xamarinforms.portablexaml.winphone\obj\debug\intermediatexaml\xamarinforms.portablexaml.winphone.exe" HashGuid="9b0cfa21-fd1f-5fee-6a57-69a855bb4783" />
+    <ReferenceAssembly PathName="j:\codigo fuente\gea\gea-app\packages\xam.plugin.media.2.6.2\lib\wpa81\plugin.media.abstractions.dll" HashGuid="2f026a7c-41cf-6c4a-d5ab-5661045873a2" />
+    <ReferenceAssembly PathName="j:\codigo fuente\gea\gea-app\packages\xam.plugin.media.2.6.2\lib\wpa81\plugin.media.dll" HashGuid="674591e9-0ebc-35be-1d0b-dce742167069" />
+    <ReferenceAssembly PathName="j:\codigo fuente\gea\gea-app\packages\xamarin.forms.2.3.3.168\lib\wpa81\xamarin.forms.core.dll" HashGuid="8fd6d715-5b1e-67fd-feee-b3bb9cc9acd7" />
+    <ReferenceAssembly PathName="j:\codigo fuente\gea\gea-app\packages\xamarin.forms.2.3.3.168\lib\wpa81\xamarin.forms.platform.dll" HashGuid="6b938cd4-44c0-2618-7eb6-4caa3f482076" />
+    <ReferenceAssembly PathName="j:\codigo fuente\gea\gea-app\packages\xamarin.forms.2.3.3.168\lib\wpa81\xamarin.forms.platform.winrt.dll" HashGuid="fe4acc44-27ba-0e4e-a08b-26ae7dccb678" />
+    <ReferenceAssembly PathName="j:\codigo fuente\gea\gea-app\packages\xamarin.forms.2.3.3.168\lib\wpa81\xamarin.forms.platform.winrt.phone.dll" HashGuid="63c58f91-4202-fe55-ec2a-7e34dee9505b" />
+    <ReferenceAssembly PathName="j:\codigo fuente\gea\gea-app\packages\xamarin.forms.2.3.3.168\lib\wpa81\xamarin.forms.xaml.dll" HashGuid="5a0f8f23-7317-5e4b-74d2-2bf18c289c53" />
+    <ReferenceAssembly PathName="j:\codigo fuente\gea\gea-app\xamarinforms.portablexaml\xamarinforms.portablexaml\bin\debug\xamarinforms.portablexaml.dll" HashGuid="85681d83-ba3f-f87a-c72e-6874f9730dac" />
+  </ReferenceAssemblyList>
+</XamlCompilerSaveState>

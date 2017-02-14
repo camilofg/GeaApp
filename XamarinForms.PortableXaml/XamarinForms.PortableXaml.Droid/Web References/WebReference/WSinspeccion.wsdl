@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://tempuri.org/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://tempuri.org/">
+      <s:element name="ValidaUsuario">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="usuario" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="clave" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ValidaUsuarioResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ValidaUsuarioResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="CargueTablas">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="tabla" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="CargueTablasResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="CargueTablasResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ObtenerListadoTablas">
+        <s:complexType />
+      </s:element>
+      <s:element name="ObtenerListadoTablasResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ObtenerListadoTablasResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="string" nillable="true" type="s:string" />
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="ValidaUsuarioSoapIn">
+    <wsdl:part name="parameters" element="tns:ValidaUsuario" />
+  </wsdl:message>
+  <wsdl:message name="ValidaUsuarioSoapOut">
+    <wsdl:part name="parameters" element="tns:ValidaUsuarioResponse" />
+  </wsdl:message>
+  <wsdl:message name="CargueTablasSoapIn">
+    <wsdl:part name="parameters" element="tns:CargueTablas" />
+  </wsdl:message>
+  <wsdl:message name="CargueTablasSoapOut">
+    <wsdl:part name="parameters" element="tns:CargueTablasResponse" />
+  </wsdl:message>
+  <wsdl:message name="ObtenerListadoTablasSoapIn">
+    <wsdl:part name="parameters" element="tns:ObtenerListadoTablas" />
+  </wsdl:message>
+  <wsdl:message name="ObtenerListadoTablasSoapOut">
+    <wsdl:part name="parameters" element="tns:ObtenerListadoTablasResponse" />
+  </wsdl:message>
+  <wsdl:message name="ValidaUsuarioHttpGetIn">
+    <wsdl:part name="usuario" type="s:string" />
+    <wsdl:part name="clave" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="ValidaUsuarioHttpGetOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="CargueTablasHttpGetIn">
+    <wsdl:part name="tabla" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="CargueTablasHttpGetOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="ObtenerListadoTablasHttpGetIn" />
+  <wsdl:message name="ObtenerListadoTablasHttpGetOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="ValidaUsuarioHttpPostIn">
+    <wsdl:part name="usuario" type="s:string" />
+    <wsdl:part name="clave" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="ValidaUsuarioHttpPostOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="CargueTablasHttpPostIn">
+    <wsdl:part name="tabla" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="CargueTablasHttpPostOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="ObtenerListadoTablasHttpPostIn" />
+  <wsdl:message name="ObtenerListadoTablasHttpPostOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:portType name="WSInspeccionSoap">
+    <wsdl:operation name="ValidaUsuario">
+      <wsdl:input message="tns:ValidaUsuarioSoapIn" />
+      <wsdl:output message="tns:ValidaUsuarioSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="CargueTablas">
+      <wsdl:input message="tns:CargueTablasSoapIn" />
+      <wsdl:output message="tns:CargueTablasSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ObtenerListadoTablas">
+      <wsdl:input message="tns:ObtenerListadoTablasSoapIn" />
+      <wsdl:output message="tns:ObtenerListadoTablasSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:portType name="WSInspeccionHttpGet">
+    <wsdl:operation name="ValidaUsuario">
+      <wsdl:input message="tns:ValidaUsuarioHttpGetIn" />
+      <wsdl:output message="tns:ValidaUsuarioHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="CargueTablas">
+      <wsdl:input message="tns:CargueTablasHttpGetIn" />
+      <wsdl:output message="tns:CargueTablasHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ObtenerListadoTablas">
+      <wsdl:input message="tns:ObtenerListadoTablasHttpGetIn" />
+      <wsdl:output message="tns:ObtenerListadoTablasHttpGetOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:portType name="WSInspeccionHttpPost">
+    <wsdl:operation name="ValidaUsuario">
+      <wsdl:input message="tns:ValidaUsuarioHttpPostIn" />
+      <wsdl:output message="tns:ValidaUsuarioHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="CargueTablas">
+      <wsdl:input message="tns:CargueTablasHttpPostIn" />
+      <wsdl:output message="tns:CargueTablasHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ObtenerListadoTablas">
+      <wsdl:input message="tns:ObtenerListadoTablasHttpPostIn" />
+      <wsdl:output message="tns:ObtenerListadoTablasHttpPostOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="WSInspeccionSoap" type="tns:WSInspeccionSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="ValidaUsuario">
+      <soap:operation soapAction="http://tempuri.org/ValidaUsuario" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CargueTablas">
+      <soap:operation soapAction="http://tempuri.org/CargueTablas" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ObtenerListadoTablas">
+      <soap:operation soapAction="http://tempuri.org/ObtenerListadoTablas" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="WSInspeccionSoap12" type="tns:WSInspeccionSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="ValidaUsuario">
+      <soap12:operation soapAction="http://tempuri.org/ValidaUsuario" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CargueTablas">
+      <soap12:operation soapAction="http://tempuri.org/CargueTablas" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ObtenerListadoTablas">
+      <soap12:operation soapAction="http://tempuri.org/ObtenerListadoTablas" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="WSInspeccionHttpGet" type="tns:WSInspeccionHttpGet">
+    <http:binding verb="GET" />
+    <wsdl:operation name="ValidaUsuario">
+      <http:operation location="/ValidaUsuario" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CargueTablas">
+      <http:operation location="/CargueTablas" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ObtenerListadoTablas">
+      <http:operation location="/ObtenerListadoTablas" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="WSInspeccionHttpPost" type="tns:WSInspeccionHttpPost">
+    <http:binding verb="POST" />
+    <wsdl:operation name="ValidaUsuario">
+      <http:operation location="/ValidaUsuario" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CargueTablas">
+      <http:operation location="/CargueTablas" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ObtenerListadoTablas">
+      <http:operation location="/ObtenerListadoTablas" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="WSInspeccion">
+    <wsdl:port name="WSInspeccionSoap" binding="tns:WSInspeccionSoap">
+      <soap:address location="http://35.162.0.224/WSSamsungSGS/WSinspeccion.asmx" />
+    </wsdl:port>
+    <wsdl:port name="WSInspeccionSoap12" binding="tns:WSInspeccionSoap12">
+      <soap12:address location="http://35.162.0.224/WSSamsungSGS/WSinspeccion.asmx" />
+    </wsdl:port>
+    <wsdl:port name="WSInspeccionHttpGet" binding="tns:WSInspeccionHttpGet">
+      <http:address location="http://35.162.0.224/WSSamsungSGS/WSinspeccion.asmx" />
+    </wsdl:port>
+    <wsdl:port name="WSInspeccionHttpPost" binding="tns:WSInspeccionHttpPost">
+      <http:address location="http://35.162.0.224/WSSamsungSGS/WSinspeccion.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

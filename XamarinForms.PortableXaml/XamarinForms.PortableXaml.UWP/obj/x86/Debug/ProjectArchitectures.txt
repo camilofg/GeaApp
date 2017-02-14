@@ -1,0 +1,2 @@
+J:\Codigo Fuente\Gea\Gea-app\XamarinForms.PortableXaml\XamarinForms.PortableXaml.UWP\XamarinForms.PortableXaml.UWP.csproj;x86
+J:\Codigo Fuente\Gea\Gea-app\XamarinForms.PortableXaml\XamarinForms.PortableXaml\XamarinForms.PortableXaml.csproj;neutral
